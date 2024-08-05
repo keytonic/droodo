@@ -13,5 +13,5 @@ jobs:
       with:
         server: ftp.keytonic.net
         username: keytonic
-        server-dir: public_html/projects/droodo2
+        server-dir: public_html/projects/droodo2/
         password: ${{ secrets.ftp_password }}
