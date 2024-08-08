@@ -1,7 +1,32 @@
 html, body
 {
-    width:100%;
-    height:100%;
-    margin: 0px;
-    padding: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	width:100%;
+	height:100%;
+	margin: 0px;
+	padding: 0px;
+
+    	background-color: #dfceca;
+}
+
+body
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+
+	width: calc(100% - 40px);
+	height: calc(100% - 40px);
+
+	background-color: #d4dfca;
+}
+
+.container-custom
+{
+	background-color: #d1ddf7;
 }
